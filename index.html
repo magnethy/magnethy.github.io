@@ -1,1 +1,188 @@
-GitHub Pages test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magne Thyrhaug - Software Developer & Architect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        h3 {
+            margin-bottom: 0;
+        }
+        #about {
+            max-width: 200px;
+            margin-right: 100px;
+        }
+        #photo {
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 50%;
+        }
+        #resume {
+            max-width: 600px;
+        }
+        .date {
+            font-size: 0.8em;
+            color: #555;
+            margin-top: 0;
+        }
+        .keywords {
+            font-size: 0.8em;
+            color: #555;
+            font-style: italic;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        li::before {
+            content: "\2022"; /* Bullet point character */
+            color: #333;
+            font-size: 1.2em;
+            position: absolute;
+            left: -1.3em;
+        }
+        #about .point {
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+        #about .value {
+            margin-top: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Magne Thyrhaug</h1>
+    <p>Software Developer, Cloud Engineer & Technical Architect</p>
+</header>
+
+<section>
+    <div id="about">
+        <img id="photo" src="https://media.licdn.com/dms/image/D4D03AQGILFhGF4d2Ow/profile-displayphoto-shrink_800_800/0/1698841811309?e=1707955200&v=beta&t=BRsdOcFStX1Axk2tr_jAn2YEBhgTD_XTWXln94OBuEA" alt="Your Name">
+        <h2>About Me</h2>
+        <p class="point">Location</p>
+        <p class="value">Stadlandet, Norway</p>
+
+        <p class="point">Email</p>
+        <p class="value">magne@thyrhaug.net</p>
+
+        <p class="point">Links</p>
+        <p class="value"><a href="https://www.linkedin.com/in/magnethyrhaug">LinkedIn</a></p>
+    </div>
+    <div id="resume">
+        <h2>Summary</h2>
+        <p>
+            Experienced software developer and architect with experience designing and implementing software solutions and cloud infrastructure since 2007. Adept at leading teams and communicating with both technical and non-technical people in various roles.
+        </p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, Python, Golang, Javascript</li>
+            <li>Public Cloud Providers: Azure, AWS</li>
+            <li>DevOps principles and methods</li>
+            <li>Security aspects of information and systems</li>
+            <li>Communication</li>
+        </ul>
+
+        <h2>Experience</h2>
+        <h3>CGI - Senior Consultant</h3>
+        <p class="date">Remote, July 2019 - </p>
+        <p>Worked on both internal and client projects in roles such as Solution Architect, Senior Software Developer,
+            and Tech Lead in the Scandinavian Global Operations. Lead of CGI's Norwegian Public Cloud community.</p>
+        <p>Tech Lead and Architect for the Scandinavian Public Cloud Center of Excellence,
+            which focused on general administration, and implementation of larger security projects for posture
+            management and risk/threat management across CGI's cloud estate. Implemented processes and tools for democratization of
+            cloud assets and environments while ensuring security compliance and necessary guardrails.</p>
+        <p>Senior Software Developer for a large governmental organization, designing and implementing Java solutions.</p>
+        <p class="keywords">Azure, Elasticsearch, Java, Javascript, PowerShell, Python, Spring Boot, Typescript</p>
+
+        <h3>No Isolation - Senior Software Developer</h3>
+        <p class="date">Oslo, January 2017 - December 2018</p>
+        <p>
+            Developed and maintained backend systems for No Isolation's two products:
+        </p>
+        <ul>
+            <li>AV1: A robot used by children with longterm illnes to help them stay in touch with their classroom and friends.</li>
+            <li>KOMP: The one-button computer for the elderly to make them part of their family's digital life.</li>
+        </ul>
+
+        <p class="keywords">AWS, Elasticsearch, Golang, Javascript, MongoDB, NodeJS, SQL</p>
+
+        <h3>Telia Norge - Senior Software Developer</h3>
+        <p class="date">Oslo and remote, May 2015 - December 2016</p>
+        <p>Started the Data lab team, the first technical team of the new Telia Next division. The team focused on enabling
+            use of internal data by the other teams. This was done by structuring, processing and serving data using custom
+            ETL pipelines running on AWS big data services.</p>
+        <p class="keywords">AWS, Elasticsearch, Javascript, NodeJS, Serverless</p>
+
+        <h3>Schibsted Payment - Software Developer</h3>
+        <p class="date">Oslo and remote, September 2013 - April 2015</p>
+        <p>Worked in Team Insight with the focus of gathering data about the users of Schibsted's various digital
+            assets (VG.no, FINN.no, etc). Large amunts of data was transformed and made available for analysis.</p>
+        <p class="keywords">AWS, NodeJS, Javascript, AWS Redshift</p>
+
+        <h3>Independent Consultant</h3>
+        <p class="date">Oslo and remote, May 2013 - December 2016</p>
+        <p>Worked as an independent consultant for Schibsted Payment and Telia Norge.</p>
+
+        <h3>Conduct AS - Consultant</h3>
+        <p class="date">Oslo, October 2011 - April 2013</p>
+        <p>Java developer for several customers. Conduct was a medium-sized consultancy firm focusing on larger Enterprise Java projects.</p>
+        <p class="keywords">Java, SQL</p>
+
+        <h3>CardCloud - Co-owner and Software Developer</h3>
+        <p class="date">Amsterdam, March 2010 - June 2011</p>
+        <p>Responsble for all backend and frontend software. CardCloud was a startup working on digitalizing the business cards using smart phones.</p>
+        <p class="keywords">AWS, CSS, HTML, MySQL, PHP</p>
+
+        <h3>Sesam.no and FINN.no - Software Developer</h3>
+        <p class="date">Oslo, June 2007 - March 2009</p>
+        <p>Frontend and Java development of Sesam.no and FINN.no's map solution. Sesam.no was Schibsted's web search solution, offering a rich experience with web search, white and yellow
+            pages, image search, news search and so on. The company was eventually shut down and the remains was
+            transferred to FINN.no.</p>
+        <p class="keywords">CSS, HTML, Java, Javascript, Linux, Tomcat</p>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>IASA CITA-F Certified IT Architect - Foundation, 2023</li>
+            <li>Azure Fundamentals, 2021</li>
+            <li>Scrum Master</li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>
+            Bachelor of Informatics - Østfold University College, 2004-2007
+        </p>
+    </div>
+</section>
+
+</body>
+</html>
